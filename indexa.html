@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head><title>QuestionBin</title>
+<style>
+body{background-image:url('quiz.jpg');
+background-repeat:no repeat;
+background-attachment:fixed;
+background-size:cover;}
+#quiz{margin-left:10px;background:#d2def2;padding:10px 20px 10px 20px;width:400px;
+border-radius:20px;float:left;}
+#textbox{height:25px; font-size:16px; border-radius:5px;}
+#button{background:green;border:none;border-radius:5px;padding:10px;color:white;font-size:16px;
+margin-top:15px;}
+h1{text-align:center;}
+</style>
+</head>
+<body>
+<h1>Welcome to <span style="color:red">QuestionBin</span> quiz</h1>
+<h3>Indian states</h3>
+<form id="quiz" name="quiz">
+<p>1. Which of the following is the capital of Arunachal Pradesh?</p>
+<input type="radio" name="question1"><label>Itanagar</label><br>
+<input type="radio" name="question1"><label>dispur</label><br>
+<br><br>
+<p>2.What are the major languages spoken in Andhra Pradesh?</p>
+<input  type ="checkbox" name="question2"><label>English</label><br>
+<input  type ="checkbox" name="question2"><label>telugu</label><br>
+<input  type ="checkbox" name="question2"><label>urdu</label><br><input  type ="checkbox" name="question2"><Label>kannada</label><br>
+<p>3. Which is the largest coffee producing state of India?</p>
+<input id="textbox" type="text" name="question3"><br>
+<input id="button" type="button" value="I am finished" ></form>
+</body>
+</html>
